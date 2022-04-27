@@ -1,0 +1,3 @@
+[submodule "standard-libs"]
+	path = standard-libs
+	url = https://gitlab.com/amadoruavs/electrical/standard-libs
