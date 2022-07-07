@@ -120,12 +120,18 @@
       },
       "track_widths": [
         0.0,
-        0.0889
+        0.0762,
+        0.0889,
+        0.1016
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false,
@@ -138,7 +144,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|2235200|1498600|c6097771-b528-4418-bc4e-fdd286ea66e5|922982e4-f020-4e60-a773-142534ebc516"
+    ],
     "meta": {
       "version": 0
     },
@@ -333,7 +341,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -403,7 +411,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -413,9 +421,7 @@
         "name": "Signal",
         "nets": [
           "/BUZZER",
-          "/DRDY_BMM150",
           "/DRDY_ICM42605",
-          "/DRDY_LIS2MDL",
           "/I2C0_SCL",
           "/I2C0_SDA",
           "/IMU_HEATER",
@@ -429,7 +435,9 @@
           "/UART0_RX_TELEM",
           "/UART0_TX_TELEM",
           "/UART1_RX_GNSS",
-          "/UART1_TX_GNSS"
+          "/UART1_TX_GNSS",
+          "/XIN",
+          "/XOUT"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

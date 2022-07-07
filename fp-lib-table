@@ -3,4 +3,5 @@
   (lib (name "LED_SMD_Extra")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/LED_SMD_Extra.pretty")(options "")(descr ""))
   (lib (name "USON")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/USON.pretty")(options "")(descr ""))
   (lib (name "ICP-10100")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICP-10100.pretty")(options "")(descr ""))
+  (lib (name "ICP20100")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICP20100.pretty")(options "")(descr ""))
 )
