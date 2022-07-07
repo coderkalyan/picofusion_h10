@@ -122,7 +122,8 @@
         0.0,
         0.0762,
         0.0889,
-        0.1016
+        0.1016,
+        0.15
       ],
       "via_dimensions": [
         {
@@ -144,9 +145,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|2235200|1498600|c6097771-b528-4418-bc4e-fdd286ea66e5|922982e4-f020-4e60-a773-142534ebc516"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -394,9 +393,10 @@
           "/QSPI_SD2",
           "/QSPI_SD3",
           "/QSPI_SS",
-          "/SPI0_MISO",
-          "/SPI0_MOSI",
+          "/SPI0_PICO",
+          "/SPI0_POCI",
           "/SPI0_SCK",
+          "/SPI0_nCS",
           "/SPI1_MISO_SD",
           "/SPI1_MOSI_SD",
           "/SPI1_SCK_SD",
@@ -405,16 +405,16 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.1016,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -442,8 +442,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
