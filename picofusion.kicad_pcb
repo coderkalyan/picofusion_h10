@@ -521,6 +521,11 @@
       (net 33 "/QSPI_SD3") (pinfunction "IO3") (pintype "bidirectional") (tstamp 0c402b95-4218-4067-aa0f-9fc365ca970e))
     (pad "8" smd rect (at 1.2 -0.75 90) (size 0.3 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 968643b4-d77d-437c-963d-426022db484a))
+    (model "${KIPRJMOD}/standard-libs/3d/W25Q16JVUXIQ.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "picofusion_stamp:Castellated_1x8_P2.54mm_Vertical" (layer "F.Cu")
@@ -2523,9 +2528,9 @@
       (net 5 "/XOUT") (pinfunction "3") (pintype "passive") (tstamp f0685ef4-030b-473b-a50a-cd8fdb8dae15))
     (pad "4" smd rect locked (at -0.875 -0.7 270) (size 1.15 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "4") (pintype "passive") (tstamp d02da81c-09d4-49f0-a956-54e78e425eee))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.78 0.78 1))
       (rotate (xyz 0 0 0))
     )
   )
