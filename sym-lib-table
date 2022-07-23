@@ -9,4 +9,5 @@
   (lib (name "CJ2302")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/CJ2302.kicad_sym")(options "")(descr ""))
   (lib (name "LED_Extra")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/LED_Extra.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/MMC5983MA.kicad_sym")(options "")(descr ""))
+  (lib (name "mcp2544fd")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/mcp2544fd.kicad_sym")(options "")(descr ""))
 )
