@@ -445,7 +445,7 @@
           "/BUZZER",
           "/CAN_N",
           "/CAN_P",
-          "/CAN_STBY",
+          "/CAN_SILENT",
           "/DRDY_ICM42605",
           "/I2C0_SCL",
           "/I2C0_SDA",
