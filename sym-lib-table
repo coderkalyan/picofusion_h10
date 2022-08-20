@@ -10,4 +10,5 @@
   (lib (name "LED_Extra")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/LED_Extra.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/MMC5983MA.kicad_sym")(options "")(descr ""))
   (lib (name "mcp2544fd")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/mcp2544fd.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV71333PDQ")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/TLV71333PDQ.kicad_sym")(options "")(descr ""))
 )
