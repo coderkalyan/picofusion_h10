@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.127
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -450,7 +450,7 @@
           "/CAN_N",
           "/CAN_P",
           "/CAN_SILENT",
-          "/DRDY_ICM42605",
+          "/DRDY_ICM20602",
           "/I2C0_SCL",
           "/I2C0_SDA",
           "/IMU_HEATER",
@@ -458,6 +458,8 @@
           "/PIO0_CAN_RX",
           "/PIO0_CAN_TX",
           "/RUN",
+          "/SCL{slash}SCK",
+          "/SDA{slash}SDI",
           "/SD_nCD",
           "/SWCLK",
           "/SWDIO",
