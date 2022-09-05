@@ -418,7 +418,6 @@
           "/QSPI_SD1",
           "/QSPI_SD2",
           "/QSPI_SD3",
-          "/QSPI_SS",
           "/SPI0_PICO",
           "/SPI0_POCI",
           "/SPI0_SCK",
@@ -446,6 +445,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "nets": [
+          "/BOOTSEL",
           "/BUZZER",
           "/CAN_N",
           "/CAN_P",
@@ -457,6 +457,7 @@
           "/NEOPIXEL",
           "/PIO0_CAN_RX",
           "/PIO0_CAN_TX",
+          "/QSPI_nCS",
           "/RUN",
           "/SCL{slash}SCK",
           "/SDA{slash}SDI",
