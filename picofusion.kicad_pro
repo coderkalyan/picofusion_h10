@@ -58,7 +58,8 @@
       "drc_exclusions": [
         "clearance|167314583|31175295|38c0df4a-eef3-4edb-8fae-f359010db884|1016e955-1568-4327-92bd-6784c0fc1f4c",
         "clearance|167314584|31824706|38c0df4a-eef3-4edb-8fae-f359010db884|332e59db-49df-4d9f-ac5d-597c4a7ddd20",
-        "clearance|167485416|31175294|38c0df4a-eef3-4edb-8fae-f359010db884|a4e94622-a6ff-4256-9d27-c91a511e21ac"
+        "clearance|167485416|31175294|38c0df4a-eef3-4edb-8fae-f359010db884|a4e94622-a6ff-4256-9d27-c91a511e21ac",
+        "silk_overlap|158400000|38003641|1b41b560-95c0-4a76-81a2-2944ae5506cd|5180714a-fbe9-492b-add0-36b1b1d79dc2"
       ],
       "meta": {
         "version": 2
