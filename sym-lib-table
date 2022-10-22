@@ -1,7 +1,6 @@
 (sym_lib_table
   (lib (name "MCU_RaspberryPi_RP2040")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
   (lib (name "Regulators")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/Regulators.kicad_sym")(options "")(descr ""))
-  (lib (name "ICM42605")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/ICM42605.kicad_sym")(options "")(descr ""))
   (lib (name "LIS2MDL")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/LIS2MDL.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5633NJL")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/MMC5633NJL.kicad_sym")(options "")(descr ""))
   (lib (name "Invensense_ICP")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/Invensense_ICP.kicad_sym")(options "")(descr ""))
@@ -11,4 +10,5 @@
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/MMC5983MA.kicad_sym")(options "")(descr ""))
   (lib (name "mcp2544fd")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/mcp2544fd.kicad_sym")(options "")(descr ""))
   (lib (name "TLV71333PDQ")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/TLV71333PDQ.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM42605")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/ICM42605.kicad_sym")(options "")(descr ""))
 )

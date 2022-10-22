@@ -394,13 +394,14 @@
         "nets": [
           "+1V1",
           "+3V3",
-          "+5V"
+          "+5V",
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6.0
       },
       {
@@ -431,8 +432,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6.0
       },
       {
@@ -451,17 +452,14 @@
           "/CAN_N",
           "/CAN_P",
           "/CAN_SILENT",
-          "/DRDY_ICM20602",
+          "/DRDY_ICM42605",
           "/I2C0_SCL",
           "/I2C0_SDA",
           "/IMU_HEATER",
-          "/NEOPIXEL",
           "/PIO0_CAN_RX",
           "/PIO0_CAN_TX",
           "/QSPI_nCS",
           "/RUN",
-          "/SCL{slash}SCK",
-          "/SDA{slash}SDI",
           "/SD_nCD",
           "/SWCLK",
           "/SWDIO",
@@ -481,8 +479,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6.0
       }
     ],
