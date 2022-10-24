@@ -4,7 +4,7 @@
   (lib (name "ICP-10100")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICP-10100.pretty")(options "")(descr ""))
   (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/RP2040_minimal.pretty")(options "")(descr ""))
   (lib (name "ICP20100")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICP20100.pretty")(options "")(descr ""))
-  (lib (name "picofusion_stamp")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/picofusion_stamp.pretty")(options "")(descr ""))
+  (lib (name "picofusion_stamp")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/picofusion_stamp.pretty")(options "")(descr ""))
   (lib (name "ICM-42605")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICM-42605.pretty")(options "")(descr ""))
   (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/Logos.pretty")(options "")(descr ""))
 )
