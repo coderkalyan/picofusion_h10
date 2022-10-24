@@ -7,4 +7,5 @@
   (lib (name "picofusion_stamp")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/picofusion_stamp.pretty")(options "")(descr ""))
   (lib (name "ICM-42605")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICM-42605.pretty")(options "")(descr ""))
   (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/Logos.pretty")(options "")(descr ""))
+  (lib (name "EAST1616")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/EAST1616.pretty")(options "")(descr ""))
 )

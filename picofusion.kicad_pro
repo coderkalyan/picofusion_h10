@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -115,7 +115,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
@@ -456,6 +456,7 @@
           "/I2C0_SCL",
           "/I2C0_SDA",
           "/IMU_HEATER",
+          "/LED",
           "/PIO0_CAN_RX",
           "/PIO0_CAN_TX",
           "/QSPI_nCS",
