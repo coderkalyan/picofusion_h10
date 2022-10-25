@@ -11,4 +11,5 @@
   (lib (name "mcp2544fd")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/mcp2544fd.kicad_sym")(options "")(descr ""))
   (lib (name "TLV71333PDQ")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/TLV71333PDQ.kicad_sym")(options "")(descr ""))
   (lib (name "ICM42605")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/symbol/ICM42605.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC1T45")(type "KiCad")(uri "/home/kalyan/Documents/amadoruavs/picofusion/standard-libs/symbol/74LVC1T45.kicad_sym")(options "")(descr ""))
 )

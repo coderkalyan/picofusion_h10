@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.127
         }
       },
@@ -55,12 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|167314583|31175295|38c0df4a-eef3-4edb-8fae-f359010db884|1016e955-1568-4327-92bd-6784c0fc1f4c",
-        "clearance|167314584|31824706|38c0df4a-eef3-4edb-8fae-f359010db884|332e59db-49df-4d9f-ac5d-597c4a7ddd20",
-        "clearance|167485416|31175294|38c0df4a-eef3-4edb-8fae-f359010db884|a4e94622-a6ff-4256-9d27-c91a511e21ac",
-        "silk_overlap|158400000|38003641|1b41b560-95c0-4a76-81a2-2944ae5506cd|5180714a-fbe9-492b-add0-36b1b1d79dc2"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -150,7 +145,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1816100|850900|8f795a2b-b9a4-499f-974f-eae43e65a4d7|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -457,6 +454,8 @@
           "/I2C0_SDA",
           "/IMU_HEATER",
           "/LED",
+          "/LED_3V3",
+          "/NEOPIXEL",
           "/PIO0_CAN_RX",
           "/PIO0_CAN_TX",
           "/QSPI_nCS",
@@ -475,7 +474,8 @@
           "/USB_MCU_DN",
           "/USB_MCU_DP",
           "/XIN",
-          "/XOUT"
+          "/XOUT",
+          "Net-(R14-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

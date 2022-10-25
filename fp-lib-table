@@ -8,4 +8,5 @@
   (lib (name "ICM-42605")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/ICM-42605.pretty")(options "")(descr ""))
   (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/Logos.pretty")(options "")(descr ""))
   (lib (name "EAST1616")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/EAST1616.pretty")(options "")(descr ""))
+  (lib (name "74LVC1T45")(type "KiCad")(uri "${KIPRJMOD}/standard-libs/footprint/74LVC1T45.pretty")(options "")(descr ""))
 )

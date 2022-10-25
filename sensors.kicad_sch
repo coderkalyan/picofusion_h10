@@ -1211,7 +1211,7 @@
     (property "Value" "ICM42605" (id 1) (at 52.8194 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y" (id 2) (at 29.21 33.02 0)
+    (property "Footprint" "ICM-42605:PQFN50P300X250X97-14N" (id 2) (at 29.21 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 29.21 33.02 0)
