@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.127
         }
       },
@@ -145,9 +145,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1816100|850900|8f795a2b-b9a4-499f-974f-eae43e65a4d7|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -392,6 +390,7 @@
           "+1V1",
           "+3V3",
           "+5V",
+          "/5V_RECT",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -444,6 +443,8 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "nets": [
+          "/3V3_SENSE",
+          "/5V_SENSE",
           "/BOOTSEL",
           "/BUZZER",
           "/CAN_N",
@@ -459,6 +460,7 @@
           "/PIO0_CAN_RX",
           "/PIO0_CAN_TX",
           "/QSPI_nCS",
+          "/RESV1",
           "/RUN",
           "/SD_nCD",
           "/SWCLK",
