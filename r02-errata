@@ -1,0 +1,8 @@
+* schematic: change capacitor naming conventions
+* remove non-standard SPI pinout from west connector
+* add usb vbus
+* switch to bmm150
+* switch to icm42688p
+* switch SPI naming conventions
+* wire fsync to 42688p
+* move resv1
