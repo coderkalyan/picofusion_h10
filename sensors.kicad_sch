@@ -2450,7 +2450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BMM150"
+		(property "Value" "BMM350"
 			(at 132.9533 71.12 0)
 			(effects
 				(font
@@ -2459,7 +2459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-12_1.56x1.56mm_P0.4mm"
+		(property "Footprint" ""
 			(at 130.81 58.42 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/783/BST-BMM150-DS001-01-786480.pdf"
+		(property "Datasheet" ""
 			(at 130.81 58.42 0)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 160.782 44.45 90)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 44.45 90)
 			(effects
 				(font
@@ -4116,7 +4116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 150.1648 59.69 0)
 			(effects
 				(font

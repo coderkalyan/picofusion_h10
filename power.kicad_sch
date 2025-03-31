@@ -110,25 +110,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -3.81 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -1.27 7.62 270)
 					(length 3.81)
@@ -2437,7 +2418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:Texas_RSW0010A_UQFN-10_1.4x1.8mm_P0.4mm"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -2472,9 +2453,6 @@
 		)
 		(pin "7"
 			(uuid "698ecce9-50fb-4575-8fd9-06e6b1303a01")
-		)
-		(pin "4"
-			(uuid "b9eced8b-0b86-4a1f-8d28-4cec2915aa10")
 		)
 		(pin "6"
 			(uuid "86404040-95eb-4ed1-9ce3-b6c7fb2a7c7e")
@@ -3435,7 +3413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 149.352 49.53 90)
 			(effects
 				(font
@@ -3634,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 39.878 90)
 			(effects
 				(font
